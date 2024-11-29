@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetFlix | LogIn</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="/assets/logo.svg">
+    
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <a href="/index/index.html"><span><img id="logo" src="/assets/logo.svg" alt="">
+            </span></a>
+        <div class="form1">
+            <div class="in">
+                <h1>Sign In</h1>
+                <form action="" >
+                    <input type="email" placeholder="Email or Phone Number" id="mail"  name="mail" >
+                    <p id="mail-error"></p>
+                    <input type="password" name="password" placeholder="Password" id="pass"   pattern=".{8,14}">
+                    <p id="pass-error"></p>
+                    <button id="sign" class="cur-point" type="submit" onclick="validate()">Sign In</button>
+                </form>
+                  
+                <p class="cur-point"><u>Fogot Password ? </u></p>
+            </div>
+            <div class="in2">
+                <input class="cur-point" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Remember Me</label>
+                <p>New to Netflix? <a href="/index/index.html" style="color: white;">SignUp Now</a> </p>
+                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <u class="cur-point">Learn more.</u>
+
+                </p>
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class="foot">
+            <div class="footbox">
+                <p>Questions? Call 000-800-919-1694</p>
+                <div class="clmn">
+                    <ul>
+                        <li class="cur-point">FAQ</li>
+                        <li class="cur-point">Cookie Preferences</li>
+
+                    </ul>
+                    <ul>
+                        <li class="cur-point">
+                            Help Centre</li>
+                        <li class="cur-point">
+                            Corporate Information</li>
+
+                    </ul>
+                    <ul>
+                        <li class="cur-point">
+                            Terms of Use
+                        </li>
+                        <li class="cur-point">
+                            Privacy
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <button class="engbtn cur-point" >
+                    ENGLISH
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

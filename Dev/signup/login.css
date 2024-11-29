@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    font-family: "Martel Sans";
+}
+.main{
+ background-image:url("/assets/bg.jpg");
+ 
+ filter: brightness(0.95);
+ /* opacity: 0.9; */
+ width: 100%w;
+ height: 185vh;
+ background-position: center center;
+ background-repeat: no-repeat;
+}
+ 
+
+
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#logo{
+    height: 40px;
+   margin: 35px 0px 0px 130px;
+   opacity: 0.95;
+  
+   
+}
+
+.form1{
+    margin: auto;
+    height: 120vh;
+    width: 35vw;
+    background-color: rgba(0, 0, 0, 0.824);
+position: relative;
+font-weight:bolder;
+color: white;
+border-radius: 6px;
+}
+
+.in{
+    margin: auto;
+    height: 40vh;
+    width: 25vw;
+  
+    padding-top: 30px;
+
+}
+.in input{
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 5px;
+    border: 1px solid white;
+    background-color: rgba(10, 10, 10, 0);
+    color: white;
+    font-weight: bold;
+}
+button{
+    padding: 13px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 5px;
+    border: 1px solid black;
+   
+    background-color: rgb(248, 0, 0);
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+}
+.in p{
+    text-align: center;
+}
+
+.in2{
+    margin: auto;
+    height: 40vh;
+    width: 25vw;
+  /* margin-top: 50px; */
+    padding-top: 150px;
+    margin-top: 30px;
+
+
+}
+
+.foot{
+    margin-top: 37px;
+    width: 100%;
+ background-color: rgba(0, 0, 0, 0.737);
+    height:45vh;
+}
+.footbox{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+   
+}
+.footbox>p{
+    padding-top: 35px;
+}
+
+.clmn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.clmn li{
+    list-style-type: none;
+    padding-top: 15px;
+text-decoration: underline;
+}
+.engbtn{
+    background-color: rgba(120, 117, 117, 0.218);
+    width: 125px;
+    font-size: small;
+    height: 35px;
+    align-items: center;
+    padding: 5px;
+
+}
+
+form p{
+    color: red;
+    margin: 0;
+    padding: 0;
+    
+
+}
